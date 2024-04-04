@@ -17,7 +17,7 @@
 				<p>Aspiring DevOps Engineer | AWS Cloud Architect<br><span id="description">- 1.5 years of experience with Windows/macOS systems<br>- Currently enrolled at WGU in the BSc Cloud Compting<br>- I like new challenges and playing with tech in spare time<br>- My Github will contain all my current/up-to-date projects</span></p>
 				<hr width="100%">
 				<div id="skills">
-					<p style="display:inline;">Skills and Technology</p><br>
+					<p style="display:inline;">Skills and Technologies</p><br>
 					<p id="skill-stronger">Excellent Communication and Interpersonal Skills</p>
 					<p id="skill-stronger">Root Cause Analysis</p>
 					<p id="skill-stronger">Windows</p>
@@ -31,12 +31,17 @@
 					<p id="skill-stronger">MobileIron MDM</p>
 					<p id="skill">AWS Lambda</p>
 					<p id="skill-stronger">CloudFormation</p>
-					<p id="skill">git</p>
+					<p id="skill">CI/CD</p>
+					<p id="skill">Git</p>
+					<p id="skill">GitHub</p>
 					<p id="skill-stronger">Amazon S3</p>					
 					<p id="skill-stronger">Amazon EC2</p>
 					<p id="skill">Amazon IAM</p>
-					<p id="skill">Amazon Lambda</p>
-					<p id="skill">CloudFormation</p>
+					<p id="skill">HTTP</p>
+					<p id="skill">CSS</p>
+					<p id="skill">Javascript</p>
+					<p id="skill">Infrastructure as Code / Terraform</p>
+					<p id="skill">Python</p>
 				</div>
 				<hr width="100%">
 				<div id="sidepanel-section-title">Certifications<br>
@@ -63,7 +68,7 @@
 					</a>
 				</div>
 				<hr width="100%">
-				<div id="sidepanel-section-title">Contact Me Here<br>
+				<div id="sidepanel-section-title">Contact Info<br>
 				</div>
 				<div id="sidepanel-section-title">
 					<a href="https://www.linkedin.com/in/joashane-garrick/" class="link" target="_blank">
@@ -79,7 +84,7 @@
 					</a>
 				</div>
 				<hr width="100%">
-				<div id="sidepanel-section-title">Download a pdf version of my resume here<br>
+				<div id="sidepanel-section-title">Download a PDF version of my resume here<br>
 				</div>
 				<div id="sidepanel-section-title">
 					<a href="https://s3.amazonaws.com/resume-joashane.com/Joashane_Garrick_Resume_2024.pdf" class="link" download="Joashane_Garrick_Resume_2024.pdf">
@@ -120,20 +125,22 @@
 				</div>
 				<div class="page">
 					<p>&nbsp;&nbsp;&nbsp;Projects</p>
-						<p class="tag">This Resume<br><span>Inspired by <a href="https://cloudresumechallenge.dev" target="_blank" class="link">cloudresumechallenge.dev</a> | <span>2020</span></span></p>
+						<p class="tag">Cloud Resume Challenge<br><span>Inspired by <a href="https://cloudresumechallenge.dev" target="_blank" class="link">cloudresumechallenge.dev</a> | <span>2020</span></span></p>
 						<ul>
-							<li>Hosted on AWS S3</li>
-							<li>Code versioned on <a href="https://github.com/Joashane/cloud_resume" target="_blank" class="link">my github</a></li>
-							<li>Automatic deployment by AWS SAM</li>
-							<li>Javascript visitor counter</li>
-							<li>API Gateway, Lambda and DynamoDB setup for the visitor counter</li>
-							<li>CloudFront for caching and content delievery</li>
-							<li>Route 53 for DNS and Amazon Certificate Manager for the Certificate</li>
+							<li>Rewrote my resume in HTML and styled it with CSS</li>
+							<li>Deployed my resume online as an Amazon S3 static website</li>
+							<li>Used Amazon Route 53 to register the website</li>
+							<li>Used Amazon CloudFront and Amazon Certificate Manager to secure communications in transit</li>
+							<li>Added javascript to display visitor counter</li>
+							<li>Used the Amazon API Gateway and an AWS Lambda function written in python, to communicate with the website and update the counter</li>
+							<li>AWS Lambda writes the updated information to a DynamoDB database</li>
+							<li>The backend was deployed automatically using AWS SAM, but backend is now being deployed using Terraform</li>
+							<li>Code versioned on <a href="https://github.com/Joashane/cloud_resume" target="_blank" class="link">GitHub</a></li>
 							<br>
 						</ul>
 					</ul>
 				</div>
-				<p class="counter-number Active">Couldnt Read Views</p>
+				<p class="counter-number Active">Couldnt Read Visitor Views</p>
 			</div>
 		</div>
 		<script src="index.js"></script>
