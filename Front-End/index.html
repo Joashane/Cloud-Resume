@@ -138,6 +138,21 @@
 							<li>Code versioned on <a href="https://github.com/Joashane/Cloud-Resume" target="_blank" class="link">GitHub</a></li>
 							<br>
 						</ul>
+						<p class="tag">AWS Cloud Architecture Deployment with Terraform<br><span>This Terraform configuration sets up a cloud infrastructure on AWS, focusing on creating a scalable and secure environment for an application.<br>The infrastructure includes:</span></p>
+						<ul>
+							<li><strong>VPC (Virtual Private Cloud)</strong>: A virtual network dedicated to the application, providing a secure and isolated environment.</li>
+							<li><strong>Subnets</strong>: Divisions within the VPC, each in a different availability zone, to distribute resources and improve fault tolerance.</li>
+							<li><strong>Internet Gateway</strong>: Allows the VPC to communicate with the internet.</li>
+							<li><strong>Route Table</strong>: Defines how traffic is routed within the VPC and to the internet.</li>
+							<li><strong>Security Group</strong>: Controls inbound and outbound traffic to the EC2 instances.</li>
+							<li><strong>EC2 Instance</strong>: A virtual server running the application, with specific IAM roles for accessing S3.</li>
+							<li><strong>Application Load Balancer (ALB)</strong>: Distributes incoming application traffic across multiple targets, such as EC2 instances, in multiple Availability Zones.</li>
+							<li><strong>RDS Instance</strong>: A managed relational database service for the application.</li>
+							<li><strong>S3 Bucket</strong>: A storage service for the application's data, with public access settings managed to ensure security.</li>
+							<li><strong>IAM Roles and Policies</strong>: For managing access to AWS resources, including read-only access to S3 for the EC2 instance.</li>
+							<li>For a more detailed architecture overview, please visit my <a href="https://github.com/Joashane/AWS-Cloud-Architecture-Deployment" target="_blank" class="link">GitHub</a> where the code is versioned and the workflow is outlined.</li>
+							<br>
+						</ul>
 					</ul>
 				</div>
 				<p class="counter-number Active">Couldnt Read Visitor Views</p>
